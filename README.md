@@ -32,7 +32,7 @@ Estes documento README tem como objetivo fornecer as informaçõeses necessária
         - Consulta de conta por id.
     - POST /api/v1/contas
         - Criação de conta
-    - PUT /api/v1/contas/{id}
+    - PATCH /api/v1/contas/{id}
         - Atualização de conta por id.
     - DELETE /api/v1/contas/{id}
         - Remoção de conta por id.
