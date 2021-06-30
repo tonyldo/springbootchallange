@@ -1,8 +1,8 @@
-Estes documento README tem como objetivo fornecer as informaÃ§Ãµes necessÃ¡rias para realizaÃ§Ã£o do projeto Contas.
+Estes documento README tem como objetivo fornecer as informaçõeses necessárias para realização do projeto Contas.
 
 ### O QUE FAZER ?
 
-- VocÃª deve realizar um fork deste repositÃ³rio e, ao finalizar, enviar o link do seu repositÃ³rio para a nossa equipe. Lembre-se, NÃƒO Ã© necessÃ¡rio criar um Pull Request para isso, nÃ³s iremos avaliar e retornar por email o resultado do seu teste.
+- Você deve realizar um fork deste repositório e, ao finalizar, enviar o link do seu repositório para a nossa equipe. Lembre-se, Não é necessário criar um Pull Request para isso, não iremos avaliar e retornar por email o resultado do seu teste.
 
 ### ESCOPO DO PROJETO
 
@@ -15,7 +15,7 @@ Estes documento README tem como objetivo fornecer as informaÃ§Ãµes necessÃ�
     4. Atualizar contas;
     5. Remover contas.
 
-### InformaÃ§Ãµes Importantes
+### Informações Importantes
 
 - A tabela de contas deve conter as seguintes colunas:
 
@@ -24,30 +24,30 @@ Estes documento README tem como objetivo fornecer as informaÃ§Ãµes necessÃ�
     - numero_conta
     - codigo_banco
 
-- Ao final da implementaÃ§Ã£o o sistema deve expor as seguintes rotas:
+- Ao final da implementação o sistema deve expor as seguintes rotas:
 
     - GET /api/v1/contas
         - Listagem de contas.
     - GET /api/v1/contas/{id}
         - Consulta de conta por id.
     - POST /api/v1/contas
-        - CriaÃ§Ã£o de conta
+        - Criação de conta
     - PUT /api/v1/contas/{id}
-        - AtualizaÃ§Ã£o de conta por id.
+        - Atualização de conta por id.
     - DELETE /api/v1/contas/{id}
-        - RemoÃ§Ã£o de conta por id.
+        - Remoção de conta por id.
 
-- O retorno dos serviÃ§os deve ser em JSON.
+- O retorno dos serviçoos deve ser em JSON.
 
-- Ã‰ obrigatÃ³rio utilizaÃ§Ã£o de Banco de Dados **MySql** ou **PostgreSQL**.
+- É obrigatório utilização de Banco de Dados **MySql** ou **PostgreSQL**.
 
-- Quando seu cÃ³digo for finalizado e disponibilizado para validarmos, vamos subir em nosso servidor e realizar os devidos testes.
+- Quando seu código for finalizado e disponibilizado para validarmos, vamos subir em nosso servidor e realizar os devidos testes.
 
-- Independente de onde conseguiu chegar no teste Ã© importante disponibilizar seu fonte para analisarmos.
+- Independente de onde conseguiu chegar no teste é importante disponibilizar seu fonte para analisarmos.
 
 ### Dicas
 
-- IntroduÃ§Ã£o ao REST: 
+- Introdução ao REST: 
     1. https://www.infoq.com/br/articles/rest-introduction/
     2. https://www.devmedia.com.br/introducao-ao-rest-ws/26964
 
